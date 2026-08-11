@@ -337,6 +337,23 @@ display:flex;align-items:center;justify-content:center;box-shadow:0 8px 25px #1b
   #s6 .polaroid:nth-child(4){top:215px!important}
 }
 
+
+/* Sakura rain uses the 🌸 emoji */
+.sakura-petal{
+  width:auto!important;
+  height:auto!important;
+  border:0!important;
+  border-radius:0!important;
+  background:none!important;
+  box-shadow:none!important;
+  font-size:20px;
+  line-height:1;
+  color:initial!important;
+}
+.sakura-petal .petal,.sakura-petal .center{display:none!important}
+.sakura-petal.small{transform:scale(.75)}
+.sakura-petal.large{transform:scale(1.2)}
+
 </style>
 </head>
 <body>
@@ -347,7 +364,7 @@ display:flex;align-items:center;justify-content:center;box-shadow:0 8px 25px #1b
   <div class="flower-float f1">🌷</div><div class="flower-float f2">🌼</div><div class="flower-float f3">🌸</div><div class="flower-float f4">🌺</div>
   <div class="tiny">✿ With all my heart ✿</div>
   <h1>May your life<br>always be filled<br><span class="script">with flowers</span></h1>
-  <p class="muted">Happy birthday, Sayangkuu. Semoga di umur yg baru ini<br>semua hal baik diberikan ke kamu,<br>dijauhkan dari semua hal yg tidak baik.<br>Semoga semua doa kamu dikabulkan,dan dimudahkan<br>setiap urusannya</p>
+  <p class="muted">Happy birthday, Sayangkuu. Semoga di umur yg baru ini semua hal baik diberikan ke kamu,<br>dijauhkan dari semua hal yg tidak baik.<br>Semoga semua doa kamu dikabulkan,dan dimudahkan<br>setiap urusannya</p>
   <p class="script muted">— With love that never runs out 💕 —</p>
   <button class="open-btn" onclick="next(2)">Open ♡</button>
  </div></div>
@@ -415,10 +432,11 @@ display:flex;align-items:center;justify-content:center;box-shadow:0 8px 25px #1b
   <div class="letter">
    <div class="tiny">✿ from my heart ✿</div>
    <h3>Untuk Sayangnya akuuu,</h3>
-   <p>Di hari yang spesial inii, I want you to know that every day with you is a gift beyond measure. You bring light into every corner of my life — even on the darkest days.</p>
-   <p>Your laughter is the most beautiful music I have ever heard. The way you see the world — with wonder and kindness — inspires me every day to become a better person.</p>
-   <p>Thank you for being you — with all your uniqueness, the gentleness of your heart, and a spirit that never fades. You are the greatest gift life has ever given me.</p>
-   <p>On this birthday of yours, I wish that all your dreams come true. May you always be surrounded by love, laughter, and flowers.</p>
+   <p>Aku bersyukur dan senang sekali bisa mengenal kamu dannn bisa menjadi orang yang menemani perjalanan hidup kamu sampai saat ini.</p>
+   <p>Di hari ulang tahun kamu, aku berdoa dan berharap kamu selalu panjang umur dan sehat selalu sampai kita nanti tua. </p>
+   <p>Aku juga berharap hubungan kita juga bisa terus bertahan sampe selama lama lama lama lamanyaa ya sayangg. Di Jepang nanti jangan lupain aku yaa..</p>
+   <p>Oh iyaa, semoga wish list dan doa doa kamu dikabulin ya secepatnyaa. inget yaa kalo hari kamu terasa berat/sedih inget ada aku yg bisa kamu ajak ngobroll dan luapin semua kekesalan kamuu</p>
+   <p>Terima kasih masih mau sama aku yg dari awal ga bisa apa apaa.</p>
    <div class="sign">With all my heart, ♡</div>
   </div>
   <button class="next" onclick="next(6)">Our memories ♡</button>
@@ -432,7 +450,7 @@ display:flex;align-items:center;justify-content:center;box-shadow:0 8px 25px #1b
    <div class="polaroid"><div class="photo-placeholder"><img src="image1.jpeg" alt="" onerror="this.style.display='none'"></div><p>Waktu pulang sekolah kita mam balengggg</p></div>
    <div class="polaroid"><div class="photo-placeholder"><img src="image2.jpeg" alt="" onerror="this.style.display='none'"></div><p>Habis dari AEON mam sushii, kesukaan kamuu</p></div>
    <div class="polaroid"><div class="photo-placeholder"><img src="image3.jpeg" alt="" onerror="this.style.display='none'"></div><p>waktu jalan jalan ke mana yak iniii??</p></div>
-   <div class="polaroid"><div class="photo-placeholder"><img src="image4.jpg" alt="" onerror="this.style.display='none'"></div><p>Lagi nonton balengg kamuu ♡</p></div>
+   <div class="polaroid"><div class="photo-placeholder"><img src="image4.jpg" alt="" onerror="this.style.display='none'"></div><p>Lagi nonton baleng kamuhh ♡</p></div>
   </div>
   <button class="next" onclick="next(7)">Playlist ♡</button>
  </div>
@@ -449,7 +467,10 @@ display:flex;align-items:center;justify-content:center;box-shadow:0 8px 25px #1b
   </div>
   <div class="track" onclick="playSong('lagu1.mp3','Sempurna','Andra and The Backbone')"><span>1 &nbsp; Sempurna</span><span>♫</span></div>
   <div class="track" onclick="playSong('lagu2.mp3','Stuck With U','Ariana Grande & Justin Bieber')"><span>2 &nbsp; Stuck With U</span><span>♫</span></div>
-  <div class="track" onclick="playSong('lagu3.mp3','My Love','Westlife')"><span>3 &nbsp; My Love</span><span>♫</span></div>
+  <div class="track" onclick="playSong('lagu3.mp3','Celengan Rindu','Fiersa Besari')"><span>3 &nbsp; Celengan Rindu</span><span>♫</span></div>
+  <div class="track" onclick="playSong('lagu4.mp3','What Makes You Beautiful','One Direction')"><span>3 &nbsp; What Makes You Beautiful</span><span>♫</span></div>
+  <div class="track" onclick="playSong('lagu5.mp3','Memories','Maroon5')"><span>3 &nbsp; Memories</span><span>♫</span></div>
+  <div class="track" onclick="playSong('lagu6.mp3','Baby One More Time','Britney Spears')"><span>3 &nbsp; Baby One More Time</span><span>♫</span></div>
   <button class="next" onclick="next(8)">One last thing ♡</button>
  </div>
 </section>
@@ -461,7 +482,7 @@ display:flex;align-items:center;justify-content:center;box-shadow:0 8px 25px #1b
    <span class="heart-note" style="left:30px;top:35px">♡</span><span class="heart-note" style="right:30px;top:70px">♡</span>
    <span class="heart-note" style="left:60px;top:115px">♡</span><span class="heart-note" style="right:45px;top:145px">♡</span>
   </div>
-  <p class="script">There are a thousand little reasons<br>why I am grateful that you exist.</p>
+  <p class="script">Thank you so much for coming to my life...<br> and loving me in ways I never thought i deserved <br> I love you so muchhh.</p>
   <button class="next" onclick="next(1)">Replay ♡</button>
  </div></div>
 </section>
@@ -522,23 +543,16 @@ document.getElementById('music').addEventListener('ended',()=>{
 
 next(1);
 
-/* Sakura petals on every slide except the cake slide */
+/* Emoji sakura rain on every slide except the cake slide */
 document.querySelectorAll('.sakura-layer').forEach(layer=>{
   for(let i=0;i<24;i++){
-    const flower=document.createElement('i');
+    const flower=document.createElement('span');
     flower.className='sakura-petal '+(i%7===0?'large':i%4===0?'small':'');
+    flower.textContent='🌸';
     flower.style.left=(Math.random()*105-2)+'%';
     flower.style.animationDuration=(5.5+Math.random()*7)+'s';
     flower.style.animationDelay=(-Math.random()*10)+'s';
-    flower.style.opacity=(.5+Math.random()*.45);
-    for(let p=0;p<5;p++){
-      const petal=document.createElement('b');
-      petal.className='petal';
-      flower.appendChild(petal);
-    }
-    const center=document.createElement('b');
-    center.className='center';
-    flower.appendChild(center);
+    flower.style.opacity=(.55+Math.random()*.4);
     layer.appendChild(flower);
   }
 });
